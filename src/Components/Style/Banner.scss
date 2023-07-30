@@ -1,0 +1,23 @@
+.banner {
+  background-color: black;
+}
+
+.bannerimg {
+  background-image: url('../assets/image/pexels-anush-gorak-1229356.jpg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+
+@media (max-width : 600px) {
+  .bannerimg {
+    background-image: none;
+  }
+}
+@media (max-width : 772px) {
+
+  .text{
+    font-size: 30px;
+  }
+}

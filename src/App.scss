@@ -1,0 +1,28 @@
+$blue: #0057fc;
+$black: #111111;
+$grey: #555555;
+$white: #ffffff;
+$sub-color: #a65b8d;
+$urbanist: 'Urbanist', sans-serif;
+*{
+    // border: 1px solid black;
+    font-family: $urbanist;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+.bgblue{
+    background-color: $blue;
+}
+.blue{
+    color: $blue;
+}
+.bgwhite{
+    background-color: $white;
+}
+.white{
+    color: $white;
+}
+.grey{
+    color: $grey;
+}

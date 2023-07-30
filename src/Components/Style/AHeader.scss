@@ -1,0 +1,39 @@
+$blue: #0057fc;
+$black: #111111;
+$grey: #555555;
+$white: #ffffff;
+$sub-color: #a65b8d;
+
+.header {
+    span{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    &arrow {
+        color: $blue;
+        transform: translateY(8px) rotate(319deg);
+        display: inline-block;
+        font-size: 25px;
+        overflow: hidden;
+        font-weight: 900;
+    }
+}
+.bgblue{
+    background-color: $blue;
+}
+.blue{
+    color: $blue;
+}
+.hbutton{
+    padding: 5px 13px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0057fc;
+    border-radius: 10px;
+    border: 0px solid white;
+}
+.hbutton:hover{
+    color: #ffffff;
+    background-color: blue;
+}
